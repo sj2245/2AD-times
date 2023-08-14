@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#theOGButton{
+ 
+  display: grid;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr;
+}
+.centered{
+ 
+  
+  margin: 0 auto;
+  
+}
+.centeredElement{
+  display: grid;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr; 
+}
+a{
+  text-decoration: none;
+  color:black;
+  transition: 300ms ease-in-out;
+  font-size: 15px;
+}
+#GameHeaderRight{
+
+  display: flex;
+  grid-gap: 15px;
+}
+#GameHeaderRight button:last-child {
+  filter: invert(1);
+}
+
+a:hover{
+  text-decoration: underline;
+  color: blue;
+  font-size: 17px;
+}
+.basicButton {
+  width: 85%;
+  
+  padding: 15px;
+  border-radius: 1000px;
+  font-family:'Courier New', Courier, monospace;
+  border: 0px solid white;
+  outline: none;
+  font-weight: 900;
+  transition: 300ms ease-in-out;
+}
+.topics{
+    width: 30%;
+    height: 100%;
+    background: #ffffff;
+    border: 5px solid rgb(0, 0, 0);
+}
+.topicsDisplay{
+    height:20%;
+    margin: 5%;
+    border-radius: 0 !important;
+    border: 0px;
+    display: flex;
+    color: black;
+}
+.basicDisplay {
+  width: 85%;
+ 
+  padding: 15px;
+  border-radius: 1000px;
+  font-family: 'Courier New', Courier, monospace;
+  border: 5px solid rgb(0, 0, 0);
+  outline: none;
+  font-weight: 900;
+  transition: 300ms ease-in-out;
+}
+@media (max-width:1000px){
+  .basicButton {
+    margin:0px;
+    width: 100%;
+    border-radius: 0px;
+
+  }
+  #GameHeaderRight {
+    /* display: block; */
+    flex-direction: column;
+    grid-gap: 5px;
+  }
+  .basicDisplay {
+    margin: 0px;
+    width: 100%;
+    border-radius: 0px;
+    
+  }
+}
+.courier{
+    font-family: 'Courier New', Courier, monospace;
+}
+.basicButtonFail{
+  color:red;
+  border: 5px solid rgb(255, 0, 0);
+}
+.circleButton {
+  width: 250px;
+  height: 250px;
+  padding: 15px;
+  border-radius: 1000px;
+  font-family: 'Courier New', Courier, monospace;
+  border: 0px solid white;
+  outline: none;
+  font-weight: 900;
+  transition: 300ms ease-in-out;
+}
+#topText{
+  font-size: 35px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 25px;
+}
+#GameHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding:10px;
+  background-color: #78c378;
+}
+#GameHeaderLeft {
+  display: flex;
+  grid-gap: 10px;
+  align-items: center;
+}
+#gamefooter{
+  display: flex;
+  justify-content: center;
+}
+#returnButt{
+  margin-top: 30px;
+  font-size: x-small;
+  padding: 2px;
+}
+#topLogo{
+  width: 70px;
+  height: 70px;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background: #6acdc4;
+  color: white;
+  font-family: 'Courier-new';
+  justify-content: space-between;
+  
+  
+}
+#IndexBod{
+  height: 85%;
+}
