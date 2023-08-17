@@ -67,6 +67,9 @@ main {
   grid-gap: 25px;
 
 }
+.newslink{
+  color:#DFF8EB;
+}
 @media (max-width:1000px){
   main {
     flex-direction: column;
@@ -77,13 +80,14 @@ main {
     margin: 0 auto;
   }
   .topicsDisplay{
-    margin: 15px;
+    margin: 5%;
   }
 }
 .topics {
     width: 33%;
     height: 100%;
-    background: #ffffff;
+    background: #1C2C47;
+    color:#DFF8EB;
     border: 5px solid rgb(0, 0, 0);
 }
 .topicsDisplay{
@@ -92,15 +96,17 @@ main {
     border-radius: 0 !important;
     border: 0px;
     display: flex;
-    color: black;
+    color: #DFF8EB;
+    background-color: #364156;
 }
 .raidsDisplay{
   height:25%;
-  margin: 5%;
+  margin: 5% auto;
   border-radius: 0 !important;
   border: 0px;
   display: flex;
-  color: black;
+  background-color: #364156;
+  color: #DFF8EB;
 }
 .raidsTop{
   height:5%;
@@ -108,7 +114,7 @@ main {
   border-radius: 0 !important;
   border: 0px;
   display: flex;
-  color: black;
+  color: #DFF8EB;
 }
 .basicDisplay {
   width: 85%;
@@ -169,7 +175,8 @@ main {
   align-items: center;
   width: 100%;
   padding:10px;
-  background-color: #78c378;
+  background-color: #214E34;
+  color:#DFF8EB;
 }
 #GameHeaderLeft {
   display: flex;
@@ -194,7 +201,7 @@ body {
   flex-direction: column;
   height: 100vh;
   width: 100vw;
-  background: #6acdc4;
+  background: #364156;
   color: white;
   font-family: 'Courier-new';
   justify-content: space-between;
